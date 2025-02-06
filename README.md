@@ -79,23 +79,11 @@ A higher conversion rate means users are finding the store easy to use.
 
 ### Summary & Insights
 
-i) Mobile Users (Highest Conversion Rate - 2.16%)
-    
-Mobile shoppers are converting well, generating $146,768 in revenue.
-    
-Action: Ensure a fast-loading, mobile-friendly site to maximize conversions.
-    
-ii) Desktop Users (Highest Revenue - $208,815)
-    
- Desktop users bring in the most revenue, but their conversion rate (2.03%) is slightly lower than mobile.
-    
-Action: Improve engagement with personalized offers & a smooth checkout.
-    
-iii) Tablet Users (Lowest Conversion Rate - 1.78%)
-    
-Tablet users contribute the least revenue ($6,582) and have the lowest conversion rate.
-    
-Action: Ensure tablet-friendly design with better touch navigation & layouts.
+I) Mobile users have the highest add-to-cart (23,223) and begin-checkout (15,696) counts, but their cart abandonment rate (89.86%) and checkout abandonment rate (85.0%) are also high. Optimizing the mobile checkout process and offering incentives could help reduce abandonment and increase conversions.
+
+II) Desktop users show strong engagement with 34,047 add-to-carts and 22,272 begins-checkout, but their cart abandonment rate (90.52%) and checkout abandonment rate (85.52%) remain concerning. Focusing on improving desktop checkout usability could help retain more users through the purchase stage.
+
+III) Tablet users have lower engagement with 1,273 add-to-carts and 789 begins-checkout, but their abandonment rates are slightly higher than mobile (cart abandonment: 91.28%, checkout abandonment: 85.93%). Improving the tablet experience and addressing potential usability issues could enhance conversions.
  
 
 ### Recommendations for Improvement
