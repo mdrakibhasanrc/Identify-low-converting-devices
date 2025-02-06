@@ -14,7 +14,7 @@ Helps businesses prioritize improvements for underperforming device categories.
 
 Supports data-driven decision-making for UX and marketing strategies.
 
-#### SQL Code:
+#### Copy This SQL Code and Paste your Bigquery SQL Editor & Use Your Own GA4 Dataset Replace the sample dataset:
 
 ```
 -- declare start date and end date for the date range filter
