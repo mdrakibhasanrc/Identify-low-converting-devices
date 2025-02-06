@@ -77,7 +77,7 @@ Formula: (Total Purchases / Total Users) × 100
       
 A higher conversion rate means users are finding the store easy to use.
 
-### Summary & Insights
+### Insights Base This Data:
 
 I) Mobile users have the highest add-to-cart (23,223) and begin-checkout (15,696) counts, but their cart abandonment rate (89.86%) and checkout abandonment rate (85.0%) are also high. Optimizing the mobile checkout process and offering incentives could help reduce abandonment and increase conversions.
 
