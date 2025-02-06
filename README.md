@@ -56,76 +56,77 @@ group by device_category;
 
 Here’s a simple breakdown of each metric:
 
-      Total Users – The number of unique visitors from each device.
+ Total Users – The number of unique visitors from each device.
       
-      More users mean higher potential for sales, but not all visitors convert.
+ More users mean higher potential for sales, but not all visitors convert.
       
-      Total Purchases – The number of orders placed.
+Total Purchases – The number of orders placed.
+
+A higher number indicates that users are successfully completing purchases.
       
-      A higher number indicates that users are successfully completing purchases.
+Total Items Sold – The total number of products bought.
       
-      Total Items Sold – The total number of products bought.
+Useful to track whether users buy multiple items per order or just one.
       
-      Useful to track whether users buy multiple items per order or just one.
+Total Revenue ($) – The total earnings from purchases.
       
-      Total Revenue ($) – The total earnings from purchases.
+This shows which device category is generating the most income.
       
-      This shows which device category is generating the most income.
+Conversion Rate (%) – The percentage of visitors who make a purchase.
       
-      Conversion Rate (%) – The percentage of visitors who make a purchase.
+Formula: (Total Purchases / Total Users) × 100
       
-      Formula: (Total Purchases / Total Users) × 100
-      
-      A higher conversion rate means users are finding the store easy to use.
+A higher conversion rate means users are finding the store easy to use.
 
 ### Summary & Insights
 
-    Mobile Users (Highest Conversion Rate - 2.16%)
+Mobile Users (Highest Conversion Rate - 2.16%)
     
-    Mobile shoppers are converting well, generating $146,768 in revenue.
+Mobile shoppers are converting well, generating $146,768 in revenue.
     
-    Action: Ensure a fast-loading, mobile-friendly site to maximize conversions.
+Action: Ensure a fast-loading, mobile-friendly site to maximize conversions.
     
-    Desktop Users (Highest Revenue - $208,815)
+Desktop Users (Highest Revenue - $208,815)
     
-    Desktop users bring in the most revenue, but their conversion rate (2.03%) is slightly lower than mobile.
+ Desktop users bring in the most revenue, but their conversion rate (2.03%) is slightly lower than mobile.
     
-    Action: Improve engagement with personalized offers & a smooth checkout.
+Action: Improve engagement with personalized offers & a smooth checkout.
     
-    Tablet Users (Lowest Conversion Rate - 1.78%)
+Tablet Users (Lowest Conversion Rate - 1.78%)
     
-    Tablet users contribute the least revenue ($6,582) and have the lowest conversion rate.
+Tablet users contribute the least revenue ($6,582) and have the lowest conversion rate.
     
-    Action: Ensure tablet-friendly design with better touch navigation & layouts.
+Action: Ensure tablet-friendly design with better touch navigation & layouts.
+ 
 
 ### Recommendations for Improvement
 
-    ✅ Optimize Mobile Experience:
+✅ Optimize Mobile Experience:
     
-    Improve page speed, reduce checkout steps, and ensure a smooth browsing experience.
+Improve page speed, reduce checkout steps, and ensure a smooth browsing experience.
     
-    Use mobile-friendly payment options (Apple Pay, Google Pay) to reduce drop-offs.
+Use mobile-friendly payment options (Apple Pay, Google Pay) to reduce drop-offs.
     
-    ✅ Enhance Desktop Personalization:
+✅ Enhance Desktop Personalization:
     
-    Show personalized product recommendations to encourage conversions.
+Show personalized product recommendations to encourage conversions.
     
-    Offer a guest checkout option to reduce friction.
+Offer a guest checkout option to reduce friction.
     
-    ✅ Improve Tablet Usability:
+✅ Improve Tablet Usability:
     
-    Ensure buttons, text, and images adjust properly to tablet screens.
+ Ensure buttons, text, and images adjust properly to tablet screens.
     
-    Run A/B tests to see what design changes improve engagement.
+Run A/B tests to see what design changes improve engagement.
 
 ### How to Use This Query Template
 
-      Adjust Date Range: Modify the start_date and end_date values to analyze a different period.
+ Adjust Date Range: Modify the start_date and end_date values to analyze a different period.
       
-      Use Your Own GA4 Dataset: Replace the sample dataset with your actual Google Analytics BigQuery export.
+ Use Your Own GA4 Dataset: Replace the sample dataset with your actual Google Analytics BigQuery export.
       
-      Customize Metrics:
+Customize Metrics:
       
-      Want to track average order value (AOV)? Add AVG(ecommerce.purchase_revenue).
-      
-      Need to measure session duration? Use AVG(event_bundle_sequence_id).
+Want to track average order value (AOV)? Add AVG(ecommerce.purchase_revenue).
+
+Need to measure session duration? Use AVG(event_bundle_sequence_id).
