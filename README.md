@@ -1,18 +1,14 @@
-### Problem Statment
+### How This Query Help you
 
-Different devices (mobile, desktop, tablet) have varying levels of engagement and conversions. If certain device categories underperform, businesses may lose revenue due to usability issues, slow speed, or poor experience.
-
-### Short Description
-
-This SQL query analyzes user behavior and conversion performance for mobile, desktop, and tablet users. It calculates key metrics such as total users, purchases, item quantities, purchase revenue, and conversion rates.
+Different devices (mobile, desktop, tablet) have varying levels of engagement and conversions. If certain device categories underperform, businesses may lose revenue due to usability issues, slow speed, or poor experience. This SQL query analyzes user behavior and conversion performance for mobile, desktop, and tablet users. It calculates key metrics such as total users, purchases, item quantities, purchase revenue, and conversion rates.
 
 ### Why It Matters
 
-Identifies which devices drive the most conversions and revenue.
+i) Identifies which devices drive the most conversions and revenue.
 
-Helps businesses prioritize improvements for underperforming device categories.
+ii) Helps businesses prioritize improvements for underperforming device categories.
 
-Supports data-driven decision-making for UX and marketing strategies.
+iii) Supports data-driven decision-making for UX and marketing strategies.
 
 #### Copy This SQL Code and Paste your Bigquery SQL Editor & Use Your Own GA4 Dataset Replace the sample dataset:
 
@@ -51,28 +47,31 @@ where parse_date('%Y%m%d', event_date) between start_date and end_date
 group by device_category;
 
 ```
+#### Query Result: 
+
+![image](https://github.com/user-attachments/assets/9b65df47-a606-4e2b-a395-c8188ac0497a)
 
 ### Explanation of Metrics 
 
 Here’s a simple breakdown of each metric:
 
- Total Users – The number of unique visitors from each device.
+i) Total Users – The number of unique visitors from each device.
       
  More users mean higher potential for sales, but not all visitors convert.
       
-Total Purchases – The number of orders placed.
+ii) Total Purchases – The number of orders placed.
 
 A higher number indicates that users are successfully completing purchases.
       
-Total Items Sold – The total number of products bought.
+iii) Total Items Sold – The total number of products bought.
       
 Useful to track whether users buy multiple items per order or just one.
       
-Total Revenue ($) – The total earnings from purchases.
+iv) Total Revenue ($) – The total earnings from purchases.
       
 This shows which device category is generating the most income.
       
-Conversion Rate (%) – The percentage of visitors who make a purchase.
+v) Conversion Rate (%) – The percentage of visitors who make a purchase.
       
 Formula: (Total Purchases / Total Users) × 100
       
@@ -80,19 +79,19 @@ A higher conversion rate means users are finding the store easy to use.
 
 ### Summary & Insights
 
-Mobile Users (Highest Conversion Rate - 2.16%)
+i) Mobile Users (Highest Conversion Rate - 2.16%)
     
 Mobile shoppers are converting well, generating $146,768 in revenue.
     
 Action: Ensure a fast-loading, mobile-friendly site to maximize conversions.
     
-Desktop Users (Highest Revenue - $208,815)
+ii) Desktop Users (Highest Revenue - $208,815)
     
  Desktop users bring in the most revenue, but their conversion rate (2.03%) is slightly lower than mobile.
     
 Action: Improve engagement with personalized offers & a smooth checkout.
     
-Tablet Users (Lowest Conversion Rate - 1.78%)
+iii) Tablet Users (Lowest Conversion Rate - 1.78%)
     
 Tablet users contribute the least revenue ($6,582) and have the lowest conversion rate.
     
@@ -121,12 +120,16 @@ Run A/B tests to see what design changes improve engagement.
 
 ### How to Use This Query Template
 
- Adjust Date Range: Modify the start_date and end_date values to analyze a different period.
+i)  Adjust Date Range: Modify the start_date and end_date values to analyze a different period.
       
- Use Your Own GA4 Dataset: Replace the sample dataset with your actual Google Analytics BigQuery export.
-      
-Customize Metrics:
-      
-Want to track average order value (AOV)? Add AVG(ecommerce.purchase_revenue).
+ii) Use Your Own GA4 Dataset: Replace the sample dataset with your actual Google Analytics BigQuery export.
 
-Need to measure session duration? Use AVG(event_bundle_sequence_id).
+iii)  Run the query to generate insights. 
+
+iv)  Analyze the results and take data-driven actions.
+      
+### Customize Metrics:
+      
+i) Want to track average order value (AOV)? Add AVG(ecommerce.purchase_revenue).
+
+ii) Need to measure session duration? Use AVG(event_bundle_sequence_id).
